@@ -1,0 +1,7 @@
+version: '2'
+services:
+  api:
+    container_name: myrcc-dashboard
+    image: docker-images.rcc.uchicago.edu/app-dev-group/myrcc-dashboard
+    ports:
+      - "3000:3000"
